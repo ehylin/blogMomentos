@@ -22,17 +22,22 @@
 }
 .card-date{
     position: absolute;
-    bottom: 87px;
-    color: white;
+    /* bottom: 87px; */
+    /* color: white; */
     font-size: 9px;
-    padding-left: 24px;
+    /* padding-left: 24px; */
+    /* margin-bottom: 10px; */
+    top: 10px;
 }
 .card .card-image .card-title{
     line-height: initial;
 }
+span.badge{
+    margin-left: 24px;
+}
 
 @media only screen and (min-width: 993px){
     .container {
-        width: 85%; 
+        width: 90%; 
     }
 }
